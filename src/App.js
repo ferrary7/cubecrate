@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
+import Projects from "./components/ProjectsPage/Projects";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Projects />
+    </>
   );
 }
 
