@@ -1,0 +1,24 @@
+.herosection {
+    padding: 80px 80px 100px;
+    justify-content: space-between;
+}
+
+.herosection h1 {
+    width: 300px;
+}
+
+.herosection p {
+    width: 500px;
+    font-weight: 600;
+    font-size: 13px;
+    opacity: 0.5;
+    margin-top: 30px;
+}
+
+.herosection button {
+    margin-top: 30px;
+}
+
+.herosection img {
+    height: 350px;
+}

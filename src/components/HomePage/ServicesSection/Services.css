@@ -1,0 +1,8 @@
+.servicesection {
+    padding: 80px 80px 100px;
+}
+
+.services-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}

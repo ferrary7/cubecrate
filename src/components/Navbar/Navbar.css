@@ -1,0 +1,32 @@
+.navbar {
+    padding: 30px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar div {
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    height: 35px;
+    margin-right: 20px;
+}
+
+.navlinks p{
+    margin-left: 60px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.navlinks p:hover {
+    cursor: pointer;
+}
