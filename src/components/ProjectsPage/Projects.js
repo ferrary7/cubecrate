@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import ProjectGallery from "./ProjectGallery";
+import Pricing from "./Pricing";
 
 export default function Projects() {
   return (
@@ -14,6 +16,8 @@ export default function Projects() {
           <div className="menu-item">Thumbnail Design</div>
         </div>
       </div>
+      <ProjectGallery />
+      <Pricing />
     </>
   );
 }
