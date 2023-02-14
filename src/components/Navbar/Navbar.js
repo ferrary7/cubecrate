@@ -1,17 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
   return (
     <div className='navbar flex'>
-      <div className='logo flex'>
+      <Link to='/'><div className='logo flex'>
         <img src='../../../assets/cclogo.svg' alt='logo' />
         CubeCrate
-      </div>
+      </div></Link>
       <div className='navlinks flex'>
-        <p>Services</p>
+        <a  href='#services'><p>Services</p></a>
         <p>About Us</p>
-        <p>Contact Us</p>
+        <a  href='#contactus'><p>Contact Us</p></a>
       </div>
     </div>
   )

@@ -4,13 +4,13 @@
 }
 
 .herosection h1 {
-    width: 300px;
+    width: 400px;
 }
 
 .herosection p {
     width: 500px;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     opacity: 0.5;
     margin-top: 30px;
 }
