@@ -1,0 +1,10 @@
+.our-team-section {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 80px 100px;
+}
+
+.devs-container {
+    justify-content: center;
+    flex-wrap: wrap;
+}

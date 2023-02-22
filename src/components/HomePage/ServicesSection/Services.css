@@ -6,3 +6,12 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/* Media queries */
+
+@media (max-width:600px) {
+    .servicesection {
+        padding: 30px 30px 100px;
+    }
+}

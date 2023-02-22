@@ -1,0 +1,68 @@
+.contactform {
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 80px 100px;
+}
+
+.contactform p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+
+.contactform input, .contactform textarea {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0B1927;
+    color: white;
+    width: 500px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.contactform textarea {
+    font-family: 'Poppins', sans-serif;
+    height: 200px;
+    padding: 15px;
+}
+
+.contactform input:focus, .contactform textarea:focus {
+    outline: none;
+}
+
+.contactform input::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contactform button {
+    margin-top: 30px;
+}
+
+
+/* Media queries */
+
+@media (max-width:600px) {
+    .contactform {
+        padding: 100px 30px 100px;
+    }
+
+    .contactform form {
+        margin: 0;
+    }
+
+    .contactform input, .contactform textarea {
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: #0B1927;
+        color: white;
+        width: 85vw;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+}

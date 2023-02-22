@@ -1,16 +1,25 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 h1 {
-  font-size: 23px;
+  font-size: 25px;
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 .flex {
@@ -22,7 +31,7 @@ h2 {
   height: 50px;
   background-color: #3700B1;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   border-radius: 10px;
   border: none;
@@ -31,4 +40,26 @@ h2 {
 
 .primary-btn:hover {
   cursor: pointer;
+}
+
+.secondary-btn {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.secondary-btn:hover {
+  cursor: pointer;
+  background-color: #FF6DD1;
+  border: none;
+}
+
+.na {
+  display: none;
 }

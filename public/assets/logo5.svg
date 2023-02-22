@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <g id="Group_60" data-name="Group 60" transform="translate(-3158 1740)">
+    <rect id="Rectangle_50" data-name="Rectangle 50" width="1000" height="600" transform="translate(3158 -1740)" fill="#032029"/>
+    <g id="Group_59" data-name="Group 59" transform="translate(-4248.607 8263.982)">
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="51.023" cy="51.023" r="51.023" transform="translate(7855.438 -9754.936)" fill="#37474f"/>
+      <path id="Path_56" data-name="Path 56" d="M22.56,0c-9.7,0-13.68,12.861-17.076,20.474C-.978,34.963.062,53.347.062,53.347s-.3,17.178,6.975,31.8c3.367,6.762,6.529,17.5,15.523,17.5A51.322,51.322,0,0,0,22.56,0Z" transform="translate(7655.508 -9755.344)" fill="#37474f"/>
+      <path id="Path_59" data-name="Path 59" d="M51.209,0c9.7,0,13.68,12.861,17.076,20.474,6.462,14.489,5.422,32.873,5.422,32.873s.3,17.178-6.975,31.8c-3.367,6.762-6.529,17.5-15.523,17.5A51.322,51.322,0,0,1,51.209,0Z" transform="translate(8083.937 -9755.266)" fill="#37474f"/>
+      <path id="Path_57" data-name="Path 57" d="M34.464,0c-4.921,0-9.1.39-12.781,2.41C7.683,9.386,0,34.779.051,51.322s4.743,38.544,21.4,49.08c3.705,2.1,7.918,2.241,13.009,2.241A51.322,51.322,0,0,0,34.464,0Z" transform="translate(7749.396 -9755.266)" fill="#37474f"/>
+      <path id="Path_58" data-name="Path 58" d="M51.26,0c4.921,0,9.1.39,12.781,2.41,14,6.976,21.678,32.369,21.632,48.912s-4.743,38.544-21.4,49.08c-3.705,2.1-7.918,2.241-13.009,2.241A51.322,51.322,0,0,1,51.26,0Z" transform="translate(7978.092 -9755.266)" fill="#37474f"/>
+      <text id="P" transform="translate(7678.637 -9691.645)" fill="#fff" font-size="37" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="3.5em"><tspan x="0" y="0">P</tspan></text>
+      <text id="H" transform="translate(7777.123 -9692.645)" fill="#fff" font-size="36" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="3.5em"><tspan x="0" y="0">H</tspan></text>
+      <text id="A" transform="translate(7892.221 -9692.645)" fill="#fff" font-size="36" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="3.5em"><tspan x="0" y="0">A</tspan></text>
+      <text id="S" transform="translate(8009.693 -9691.458)" fill="#fff" font-size="36" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="3.5em"><tspan x="0" y="0">S</tspan></text>
+      <text id="E" transform="translate(8108.179 -9691.458)" fill="#fff" font-size="36" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="3.5em"><tspan x="0" y="0">E</tspan></text>
+    </g>
+  </g>
+</svg>
