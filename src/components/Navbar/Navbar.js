@@ -1,12 +1,18 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
+  };
+
+  document.onclick = (e) => {
+    if (e.target.id !== "hemberg" && e.target.id !== "navlinks") {
+      setShowMenu(false);
+    }
   };
 
   // function MenuClick() {
@@ -20,22 +26,38 @@ function Navbar() {
   // }
 
   return (
-    <div className='navbar flex'>
+    <div className="navbar flex">
       <div>
-        <Link to='/'><div className='logo flex'>
-          <img src='../../../assets/cclogo.svg' alt='logo' />
-          CubeCrate
-        </div></Link>
-        <img className='nav-icon' src='../../../assets/nav-icon.svg' alt='menu' onClick={toggleMenu} />
+        <Link to="/">
+          <div className="logo flex">
+            <img src="../../../assets/cclogo.svg" alt="logo" />
+            CubeCrate
+          </div>
+        </Link>
+        <img
+          className="nav-icon"
+          id="hemberg"
+          src="../../../assets/nav-icon.svg"
+          alt="menu"
+          onClick={toggleMenu}
+        />
       </div>
-      {showMenu &&(<ul className='navlinks flex'>
-        <Link to='/services/web-development'><li>Services</li></Link>
-        <Link to='/about'><li>About Us</li></Link>
-        <a href='#contactus'><li>Contact Us</li></a>
-      </ul>)}
-      
+      <ul
+        className={showMenu ? "navlinks flex active" : "navlinks flex hidden"}
+        id="navlinks"
+      >
+        <Link to="/services/web-development">
+          <li>Services</li>
+        </Link>
+        <Link to="/about">
+          <li>About Us</li>
+        </Link>
+        <a href="#contactus">
+          <li>Contact Us</li>
+        </a>
+      </ul>
     </div>
-  )
+  );
 
   // return (
   //   <nav className="navbar flex">
@@ -63,4 +85,4 @@ function Navbar() {
   // );
 }
 
-export default Navbar
+export default Navbar;
