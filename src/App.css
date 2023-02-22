@@ -59,3 +59,7 @@ a, a:visited, a:hover, a:active {
   background-color: #FF6DD1;
   border: none;
 }
+
+.na {
+  display: none;
+}

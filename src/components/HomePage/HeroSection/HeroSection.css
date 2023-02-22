@@ -22,3 +22,36 @@
 .herosection img {
     height: 350px;
 }
+
+
+/* Media queries */
+
+@media (max-width:600px) {
+    .herosection {
+        padding: 30px 30px 100px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .herosection>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herosection h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .herosection p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .herosection img {
+        height: 60vw;
+        margin-bottom: 80px;
+    }
+}

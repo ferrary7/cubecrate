@@ -14,7 +14,7 @@ function HomePage() {
         <HeroSection />
         <Services />
         <OurWork />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <ContactForm />
         <Footer />
     </>

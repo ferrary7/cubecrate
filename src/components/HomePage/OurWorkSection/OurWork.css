@@ -27,3 +27,12 @@
 .ourworkcard:hover {
     cursor: pointer;
 }
+
+
+/* Media queries */
+
+@media (max-width:600px) {
+    .ourwork {
+        padding: 30px 30px 100px;
+    }
+}

@@ -42,3 +42,27 @@
 .contactform button {
     margin-top: 30px;
 }
+
+
+/* Media queries */
+
+@media (max-width:600px) {
+    .contactform {
+        padding: 100px 30px 100px;
+    }
+
+    .contactform form {
+        margin: 0;
+    }
+
+    .contactform input, .contactform textarea {
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background-color: #0B1927;
+        color: white;
+        width: 85vw;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+}
