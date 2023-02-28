@@ -36,11 +36,12 @@
     border-radius: 50%;
     background-color: white;
     margin-right: 80px;
+    background-size: cover;
 }
 
 .testimonial-card p {
     width: 400px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     opacity: 0.5;
 }
@@ -48,6 +49,6 @@
 .testimonial-card .client {
     opacity: 1;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 30px;
 }

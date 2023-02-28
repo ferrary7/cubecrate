@@ -16,7 +16,6 @@ function UIProjects() {
         </div>
 
         <h2>Pricing</h2>
-        
     </div>
     
   )

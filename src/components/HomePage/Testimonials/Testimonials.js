@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Testimonials.css';
 import testimonials from './Data';
+import TestimonialCard from './TestimonialCard';
 
 function Testimonials() {
     const numData = testimonials.length;
@@ -27,14 +28,12 @@ function Testimonials() {
             <h2>What Our Clients Say</h2>
             <div className='testimonials-container flex'>
                 <div className='arrow flex' onClick={LeftClick}><img src='../../../assets/left-arrow.svg' alt='left' /></div>
-                <div className='testimonial-card flex'>
-                    <div className='client-image' style={{backgroundImage: 'url(' + testimonials[slide].image + ')'}}>
-                    </div>
-                    <div>
-                        <p className='review'>{testimonials[slide].review}</p>
-                        <p className='client'>{testimonials[slide].name}, {testimonials[slide].company}</p>
-                    </div>
-                </div>
+                <TestimonialCard
+                    image = {testimonials[slide].image}
+                    review = {testimonials[slide].review}
+                    name = {testimonials[slide].name}
+                    company = {testimonials[slide].company}
+                />
                 <div className='arrow flex' onClick={RightClick}><img src='../../../assets/right-arrow.svg' alt='right' /></div>
             </div>
         </div>
