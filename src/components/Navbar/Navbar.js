@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
+  const isMobile = useMediaQuery({ query: '(max-width: 600px)'});
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -43,7 +45,7 @@ function Navbar() {
         />
       </div>
       <ul
-        className={showMenu ? "navlinks flex active" : "navlinks flex hidden"}
+        className={isMobile ? (showMenu ? "navlinks flex active" : "navlinks flex hidden") : "navlinks flex active"}
         id="navlinks"
       >
         <Link to="/services/web-development">
