@@ -1,0 +1,31 @@
+export const images = {
+  logos: [
+    "/assets/logo1.svg",
+    "/assets/logo2.svg",
+    "/assets/logo3.svg",
+    "/assets/logo4.svg",
+    "/assets/logo5.svg",
+    "/assets/logo6.svg",
+    "/assets/logo7.png",
+    "/assets/logo8.png",
+    "/assets/logo9.png",
+    "/assets/logo10.png",
+  ],
+  ui: [
+    "/assets/ui1.png",
+    "/assets/ui2.png",
+    "/assets/ui3.png",
+    "/assets/ui4.png",
+    "/assets/ui5.png",
+    "/assets/ui6.png",
+    "/assets/ui7.png",
+  ],
+  thumbs: [
+    "/assets/triund1.png",
+    "/assets/amritsar1.png",
+    "/assets/triund2.png",
+    "/assets/amritsar2.png",
+    "/assets/podcast1.png",
+    "/assets/triund3.png",
+  ],
+};
