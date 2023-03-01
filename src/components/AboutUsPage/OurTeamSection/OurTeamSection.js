@@ -10,7 +10,7 @@ function OurTeamSection() {
         <DevCard
             image='../../../assets/aditya2.jpg'
             name='Aditya Anand'
-            desc={['UI Designer', 'Logo Designer']}
+            desc={['Full Stack Developer', 'UI Design', 'Logo Design']}
             yt='https://www.youtube.com/imadityaanand'
             linkedin='https://www.linkedin.com/in/imadityaanand/'
             ig='https://www.instagram.com/imadityaanand/'
@@ -18,14 +18,14 @@ function OurTeamSection() {
         <DevCard
             image='../../../assets/aryan.png'
             name='Aryan Sharma'
-            desc={['Front-end Developer', 'Video Editor']}
+            desc={['Front-end Developer', 'Motion Graphics', 'Sound Effects']}
             linkedin='https://www.linkedin.com/in/ferrary7/'
             ig='https://www.instagram.com/pixelhub.community/'
         />
         <DevCard
             image='../../../assets/raju.png'
             name='Raju Tukadiya'
-            desc={['Back-end Developer', 'Thumbnail Designer']}
+            desc={['Back-end Developer', 'Thumbnail Design', 'Video Editing', 'Video Colorist']}
             yt='https://www.youtube.com/@rajutk'
             linkedin='https://www.linkedin.com/in/rajutk/'
             ig='https://www.instagram.com/rajutk9/'
