@@ -12,3 +12,18 @@
     margin: 50px 0;
     text-align: center;
 }
+
+
+
+
+/* Media queries */
+
+@media (max-width: 600px) {
+    .about-main-section {
+        padding: 30px 30px 100px;
+    }
+
+    .about-main-section p {
+        width: 100%;
+    }
+}

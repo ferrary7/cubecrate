@@ -17,7 +17,7 @@ function PackageCard(props) {
       }
       {
         props.notincl.map(function(item) {
-            return <li>
+            return <li className='notincl'>
                 <div className='blank'></div>
                 {item}
             </li>

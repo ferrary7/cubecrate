@@ -1,4 +1,5 @@
 import React from "react";
+import PackageCard from "../Prices/PackageCard";
 import "./Projects.css";
 
 function UIProjects() {
@@ -36,8 +37,7 @@ function UIProjects() {
         ></div>
       </div>
 
-        <h2>Pricing</h2>
-        
+      
     </div>
   );
 }
