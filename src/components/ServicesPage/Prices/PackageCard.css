@@ -1,0 +1,57 @@
+.packagecard {
+    min-height: 400px;
+    width: 300px;
+    background-color: #0B1927;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 25px 20px;
+}
+
+.packagecard p, .packagecard li {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.packagecard .package-title {
+    color: #FF6DD1;
+}
+
+.packagecard .package-price {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.packagecard ul {
+    margin: 0;
+    padding: 0;
+}
+
+.packagecard .check, .packagecard .blank {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.packagecard li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.packagecard .notincl {
+    opacity: 0.5;
+}
+
+
+
+
+/* Media queries */
+
+@media (max-width: 600px) {
+    .packagecard {
+        width: 100%;
+    }
+}

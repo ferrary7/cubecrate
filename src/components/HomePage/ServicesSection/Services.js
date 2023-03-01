@@ -9,7 +9,7 @@ function Services() {
       <div className='services-container flex'>
         <ServicesCard
           icon='../../../assets/web-dev-icon.svg'
-          title='MERN stack development'
+          title='Web development'
           desc='Custom website design and development services that deliver responsive websites tailored to your business needs.'
           route='services/web-development'
         />

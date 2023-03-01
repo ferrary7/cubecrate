@@ -5,13 +5,13 @@ function ContactForm() {
   return (
     <div className='contactform flex' id='contactus'>
         <h2>Let's Connect!</h2>
-      <form>
+      <form action="mailto:imadityaanand24@gmail.com" method="post" enctype="text/plain">
         <p>Your Name</p>
-        <input placeholder='Name' />
+        <input name='name' placeholder='Name' />
         <p>Your Email</p>
-        <input placeholder='mail@website.com' />
+        <input name='mail' placeholder='mail@website.com' />
         <p>Message</p>
-        <textarea className='message' />
+        <textarea name='message' className='message' />
 
         <br />
         <button className='primary-btn' type='submit'>Send Message</button>

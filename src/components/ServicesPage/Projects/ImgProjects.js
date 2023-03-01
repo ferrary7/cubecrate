@@ -24,8 +24,8 @@ function ImgProjects(props) {
             );
           })}
         </div>
-        <h2>Pricing</h2>
       </div>
+
       {modalImg && (
         <div className="modal">
           <div
