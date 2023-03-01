@@ -1,17 +1,28 @@
 .servicesection {
-    padding: 80px 80px 100px;
+  padding: 80px 80px 100px;
 }
 
 .services-container {
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 
 /* Media queries */
 
-@media (max-width:600px) {
-    .servicesection {
-        padding: 30px 30px 100px;
-    }
+@media only screen and (min-width: 768px) {
+  .servicesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesection {
+    padding: 30px 30px 100px;
+  }
 }
