@@ -29,3 +29,119 @@ export const images = {
     "/assets/triund3.png",
   ],
 };
+
+export const packages = {
+  logos: {
+    basic: {
+      title: "Basic",
+      price: "$29",
+      incl: [
+        "Logo Transperency",
+        "High Resolution",
+        "1 Concept",
+        "3 Days Delivery",
+        "3 Revisions",
+        "Vector (SVG)",
+      ],
+      notincl: ["Source File", "Social Media Kit", "3D Mockup"],
+    },
+    standard: {
+      title: "Srandard",
+      price: "$79",
+      incl: [
+        "Logo Transperency",
+        "High Resolution",
+        "3 Concept",
+        "5 Days Delivery",
+        "5 Revisions",
+        "Vector (SVG)",
+        "Source File",
+        "Social Media Kit",
+      ],
+      notincl: ["3D Mockup"],
+    },
+    premium: {
+      title: "Premium",
+      price: "$129",
+      incl: [
+        "Logo Transperency",
+        "High Resolution",
+        "5 Concept",
+        "7 Days Delivery",
+        "Unlimited Revisions",
+        "Vector (SVG)",
+        "Source File",
+        "Social Media Kit",
+        "3D Mockup",
+      ],
+      notincl: [],
+    },
+  },
+  ui: {
+    basic: {
+      title: "Basic",
+      price: "$19",
+      incl: ["1 Screen", "3 Days Delivery", "3 Revisions", "Source File"],
+      notincl: ["Responsive Design", "Prototype", "Wireframe"],
+    },
+    standard: {
+      title: "Standard",
+      price: "$139",
+      incl: [
+        "8 Screens",
+        "7 Days Delivery",
+        "Unlimited Revisions",
+        "Source File",
+        "Prototype",
+        "Responsive Design",
+      ],
+      notincl: ["Wireframe"],
+    },
+    premium: {
+      title: "Premium",
+      price: "$249",
+      incl: [
+        "16 Screens",
+        "10 Days Delivery",
+        "Unlimited Revisions",
+        "Source File",
+        "Prototype",
+        "Responsive Design",
+        "Wireframe",
+      ],
+      notincl: [],
+    },
+  },
+  thumbs: {
+    basic: {
+      title: "Basic",
+      price: "$9",
+      incl: ["1 Thumbnail", "1 Day Delivery", "3 Revisions", "JPEG X PNG"],
+      notincl: ["Source File"],
+    },
+    standard: {
+      title: "Standard",
+      price: "$16",
+      incl: [
+        "3 Thumbnails",
+        "2 Days Delivery",
+        "3 Revisions",
+        "JPEG X PNG",
+        "Source File",
+      ],
+      notincl: [],
+    },
+    premium: {
+      title: "Premium",
+      price: "$24",
+      incl: [
+        "5 Thumbnails",
+        "4 Days Delivery",
+        "Unlimited Revisions",
+        "JPEG X PNG",
+        "Source File",
+      ],
+      notincl: [],
+    },
+  },
+};
