@@ -22,6 +22,7 @@
   border-radius: 15px;
   margin: 20px;
   background-size: cover;
+  background-position: center;
 }
 
 .ourworkcard:hover {
@@ -30,7 +31,7 @@
 
 /* Media queries */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 869px) and (min-width: 600px) {
   .work-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

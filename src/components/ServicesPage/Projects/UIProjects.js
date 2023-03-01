@@ -1,5 +1,4 @@
 import React from "react";
-import PackageCard from "../Prices/PackageCard";
 import "./Projects.css";
 
 function UIProjects() {
